@@ -1,0 +1,11 @@
+review_order,candidate_id,unresolved_must_haves,score,confidence,human_review_flags
+1,batch_candidate_001,0,4.000,0.830,routing:human_review_required;missing_evidence;human_review_required
+2,batch_candidate_009,0,4.000,0.830,routing:human_review_required;missing_evidence;human_review_required
+3,batch_candidate_007,0,4.000,0.720,routing:human_review_required;prompt_injection_detected;missing_evidence;human_review_required
+4,batch_candidate_002,0,4.000,0.710,routing:human_review_required;missing_evidence;human_review_required
+5,batch_candidate_006,1,0.000,0.810,routing:mandatory_gap_review;missing_evidence;human_review_required
+6,batch_candidate_003,1,0.000,0.610,routing:mandatory_gap_review;missing_evidence;human_review_required
+7,batch_candidate_010,1,2.000,0.430,routing:mandatory_gap_review;missing_evidence;human_review_required
+8,batch_candidate_004,1,1.000,0.200,routing:mandatory_gap_review;missing_evidence;human_review_required
+9,batch_candidate_005,1,1.000,0.200,routing:mandatory_gap_review;missing_evidence;human_review_required
+10,batch_candidate_008,1,0.000,0.120,routing:mandatory_gap_review;missing_evidence;contradictory_evidence;human_review_required

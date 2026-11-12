@@ -1,0 +1,165 @@
+{
+  "role_id": "role_fallback_marketing_intern",
+  "version": 13,
+  "parent_version": 12,
+  "review_status": "approved",
+  "basic_info": {
+    "title": "Marketing Intern",
+    "role_family": "marketing",
+    "role_level": "intern",
+    "employment_type": "internship",
+    "division": "Consumer Products",
+    "team": "Brand Marketing",
+    "location": "Auckland",
+    "work_arrangement": "On-site",
+    "reporting_to": "Brand Marketing Manager",
+    "start_date": "2026-11-30",
+    "end_date": "2027-02-26",
+    "initial_manager_statement": "We need a Marketing Intern from 30 November 2026 to 26 February 2027 because the summer campaign calendar has increased. They must script and film short TikTok videos with the team, targeting three approved posts per week. They will support one full campaign cycle and write a results retrospective. Basic visual content editing experience is preferred and may come from study, volunteering, or personal projects."
+  },
+  "business_need": {
+    "problem": "The team needs summer campaign delivery capacity.",
+    "why_now": "The summer campaign calendar has increased.",
+    "cost_of_vacancy": null,
+    "is_replacement": false
+  },
+  "success_outcomes": [
+    {
+      "outcome_id": "outcome_001",
+      "description": "Deliver three approved TikTok posts each week.",
+      "time_horizon": "First 30 days",
+      "measure": "Three approved posts per week",
+      "priority": "must_have",
+      "source_statement": "We need a Marketing Intern from 30 November 2026 to 26 February 2027 because the summer campaign calendar has increased. They must script and film short TikTok videos with the team, targeting three approved posts per week. They will support one full campaign cycle and write a results retrospective. Basic visual content editing experience is preferred and may come from study, volunteering, or personal projects.",
+      "confidence": null
+    },
+    {
+      "outcome_id": "outcome_002",
+      "description": "Support one full campaign cycle end to end.",
+      "time_horizon": "First 90 days",
+      "measure": "One completed campaign cycle",
+      "priority": "preferred",
+      "source_statement": null,
+      "confidence": null
+    },
+    {
+      "outcome_id": "outcome_003",
+      "description": "Publish a reusable summary of campaign results and learnings.",
+      "time_horizon": "By internship end",
+      "measure": "One manager-approved campaign retrospective",
+      "priority": "preferred",
+      "source_statement": null,
+      "confidence": null
+    }
+  ],
+  "responsibilities": [
+    {
+      "responsibility_id": "responsibility_001",
+      "description": "Draft and schedule weekly campaign content with the team.",
+      "frequency": "Weekly",
+      "ownership_level": "Shared",
+      "priority": "must_have",
+      "source_statement": null,
+      "confidence": null
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "requirement_001",
+      "category": "domain",
+      "name": "Weekly TikTok content scripting",
+      "description": "Script and film short TikTok videos with the team.",
+      "priority": "must_have",
+      "proficiency": "working",
+      "learnability": "day_one",
+      "accepted_equivalents": [
+        "Comparable short-form video scripting and filming experience"
+      ],
+      "business_rationale": "The manager explicitly assigned this task.",
+      "evidence_methods": [
+        "Structured behavioural question",
+        "Portfolio or personal-project example"
+      ],
+      "source_statement": "They must script and film short TikTok videos with the team,",
+      "source_turn_id": "manager_turn_001",
+      "confidence": null,
+      "requires_confirmation": false,
+      "approved_by_human": true
+    },
+    {
+      "requirement_id": "requirement_002",
+      "category": "domain",
+      "name": "Basic visual content editing",
+      "description": "Use a basic visual editing tool to prepare social assets.",
+      "priority": "preferred",
+      "proficiency": "awareness",
+      "learnability": "within_30_days",
+      "accepted_equivalents": [
+        "Editing completed through study, volunteering, or personal projects"
+      ],
+      "business_rationale": "Editing familiarity shortens feedback cycles but can be learned.",
+      "evidence_methods": [
+        "Structured behavioural question",
+        "Portfolio or personal-project example"
+      ],
+      "source_statement": "Basic visual content editing experience is preferred and may come from study, volunteering, or personal projects.",
+      "source_turn_id": "manager_turn_001",
+      "confidence": null,
+      "requires_confirmation": false,
+      "approved_by_human": true
+    }
+  ],
+  "open_assumptions": [],
+  "open_ambiguities": [],
+  "company_behaviours": [
+    {
+      "value": "Collaboration",
+      "role_behaviour": "Shares draft work early and incorporates feedback.",
+      "scenario": "A campaign draft receives feedback.",
+      "evidence_method": "Behavioural screening response",
+      "source_statement": "We need a Marketing Intern from 30 November 2026 to 26 February 2027 because the summer campaign calendar has increased. They must script and film short TikTok videos with the team, targeting three approved posts per week. They will support one full campaign cycle and write a results retrospective. Basic visual content editing experience is preferred and may come from study, volunteering, or personal projects.",
+      "approved_by_human": true
+    }
+  ],
+  "constraints": {
+    "country": "New Zealand",
+    "location": "Auckland",
+    "work_arrangement": "On-site",
+    "work_rights": "Must hold valid New Zealand work rights.",
+    "weekly_hours": "40 hours",
+    "travel": null,
+    "languages": [],
+    "jurisdiction_notes": []
+  },
+  "assessment_methods": [
+    "Structured screening questions",
+    "Portfolio or personal-project discussion"
+  ],
+  "decision_owner": "Talent Acquisition Partner",
+  "quality": {
+    "readiness_score": 100,
+    "contradictions": [],
+    "warnings": [],
+    "warning_acknowledgements": []
+  },
+  "audit": {
+    "schema_version": "1.0",
+    "created_at": "2026-07-25T01:27:12Z",
+    "updated_at": "2026-07-25T01:27:12Z",
+    "model": null,
+    "prompt_version": null,
+    "source_ids": [
+      "manager_turn_001"
+    ]
+  },
+  "human_approved": true,
+  "approved_by": "Fixture Hiring Manager",
+  "approved_at": "2026-07-25T01:27:12Z",
+  "approved_sections": [
+    "business_purpose",
+    "outcomes",
+    "must_haves",
+    "behavioural_criteria",
+    "key_constraints"
+  ]
+}

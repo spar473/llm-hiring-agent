@@ -1,0 +1,349 @@
+{
+  "schema_version": "1.0",
+  "hiring_pack_id": "hiring_pack_076bdf2b9b2946b58a115828c6b6530a",
+  "version": 1,
+  "parent_version": null,
+  "source_session_id": "demo_fallback",
+  "provenance": {
+    "source_role_id": "role_fallback_marketing_intern",
+    "source_role_version": 13,
+    "generated_at": "2026-07-25T01:28:12Z",
+    "generated_by": "Fixture Hiring Manager",
+    "model": "offline-reviewed-template",
+    "provider": "Offline Fixture",
+    "prompt_version": "hiring_pack_generator_v1",
+    "reference_files": [
+      {
+        "filename": "Community Manager - Example JD.md",
+        "sha256": "d5e228f3496578adc1b09bacbd276a618825c433b5d35571be1eaabfcc0bbc84",
+        "byte_size": 875,
+        "category": "example_jd",
+        "extraction_method": "utf8_text_v1"
+      },
+      {
+        "filename": "Company Values.md",
+        "sha256": "0ff190b5f64ec49591c578ab5ce9e931804574c07e8ddcd1d3602214038f9018",
+        "byte_size": 854,
+        "category": "company_values",
+        "extraction_method": "utf8_text_v1"
+      },
+      {
+        "filename": "Marketing Coordinator - Example JD.md",
+        "sha256": "eba90abc6e92f1187d4d25db9e0c1fa861d721f16e3a1512e95cd685df7ea8bc",
+        "byte_size": 841,
+        "category": "example_jd",
+        "extraction_method": "utf8_text_v1"
+      }
+    ],
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "job_description": {
+    "title": "Marketing Intern",
+    "location": "Auckland",
+    "purpose": "Provide summer campaign delivery capacity for the Brand Marketing team as the summer campaign calendar has increased.",
+    "business_impact": "Support delivery of weekly campaign content and TikTok posts for summer campaigns.",
+    "responsibilities": [
+      "Draft and schedule weekly campaign content with the team.",
+      "Script and film short TikTok videos with the team."
+    ],
+    "outcomes": [
+      "Within first 30 days, Deliver three approved TikTok posts each week.",
+      "Within first 90 days, Support one full campaign cycle end to end.",
+      "Within by internship end, Publish a reusable summary of campaign results and learnings."
+    ],
+    "must_have_criteria": [
+      {
+        "requirement_id": "requirement_001",
+        "text": "Script and film short TikTok videos with the team."
+      }
+    ],
+    "preferred_criteria": [
+      {
+        "requirement_id": "requirement_002",
+        "text": "Use a basic visual editing tool to prepare social assets."
+      }
+    ],
+    "company_behaviours": [
+      {
+        "value": "Collaboration",
+        "role_behaviour": "Shares draft work early and incorporates feedback when a campaign draft receives feedback."
+      }
+    ],
+    "logistics": [
+      "Internship role in Brand Marketing within Consumer Products.",
+      "Location: Auckland, New Zealand.",
+      "Work arrangement: On-site.",
+      "Hours: 40 hours per week.",
+      "Dates: 30 November 2026 to 26 February 2027.",
+      "Must hold valid New Zealand work rights."
+    ],
+    "assessment_expectations": [
+      "Structured screening questions assess approved role requirements.",
+      "Candidates may use academic, volunteer, extracurricular, personal-project, or work evidence.",
+      "Portfolio examples are discussed but do not replace human review."
+    ]
+  },
+  "screening_questions": [
+    {
+      "question_id": "sq_001",
+      "question": "Describe a short TikTok video you have scripted and filmed with other people. What was the brief, what did you personally do, and what was the result?",
+      "requirement_ids": [
+        "requirement_001"
+      ],
+      "purpose": "Assess direct, owned evidence of scripting and filming short TikTok content collaboratively.",
+      "expected_evidence": [
+        "A specific short-form video example from work, study, volunteer, extracurricular, or personal-project experience.",
+        "The candidate's personal contribution to scripting and filming.",
+        "How they worked with others and the resulting output or response."
+      ],
+      "rubric": [
+        {
+          "score": 0,
+          "description": "States they have not scripted or filmed a short TikTok video and provides no equivalent short-form video evidence."
+        },
+        {
+          "score": 1,
+          "description": "Provides no relevant example or does not describe any scripting or filming activity."
+        },
+        {
+          "score": 2,
+          "description": "Gives a generic or indirect example, with unclear personal ownership of the script or filming."
+        },
+        {
+          "score": 3,
+          "description": "Describes a relevant short-form video with a clear personal contribution to scripting and filming and some detail on team involvement."
+        },
+        {
+          "score": 4,
+          "description": "Provides a specific TikTok or comparable short-form example, clearly explains script and filming actions, collaboration, and a concrete output or result."
+        },
+        {
+          "score": 5,
+          "description": "Provides a detailed, validated example with clear ownership of scripting and filming, collaboration choices, measurable or documented outcomes, trade-offs, and reflection on improvements."
+        }
+      ],
+      "green_flags": [
+        "Explains both scripting and filming rather than only appearing in or posting a video.",
+        "Clearly distinguishes personal actions from team actions.",
+        "Connects creative choices to the intended audience or campaign brief."
+      ],
+      "red_flags": [
+        "Says others created the script or filmed the content without describing an equivalent personal contribution.",
+        "Cannot explain what they personally did.",
+        "Provides an unrelated example with no short-form video production evidence."
+      ],
+      "follow_up": "What specific decisions did you make in the script and during filming, and why?"
+    },
+    {
+      "question_id": "sq_002",
+      "question": "Walk us through how you would turn a campaign idea into a short TikTok video with a team, from first draft through filming.",
+      "requirement_ids": [
+        "requirement_001"
+      ],
+      "purpose": "Assess practical understanding of the workflow required to script and film team-based TikTok content.",
+      "expected_evidence": [
+        "A logical sequence from campaign idea or brief to a short script and filmed asset.",
+        "Consideration of roles, timing, and coordination with team members.",
+        "Specific actions the candidate would take during scripting and filming."
+      ],
+      "rubric": [
+        {
+          "score": 0,
+          "description": "Describes an approach that omits both scripting and filming, or explicitly cannot explain how to create a short TikTok video."
+        },
+        {
+          "score": 1,
+          "description": "Provides no relevant workflow or only repeats that they would make a video."
+        },
+        {
+          "score": 2,
+          "description": "Offers a generic sequence with little connection to scripting, filming, or team coordination."
+        },
+        {
+          "score": 3,
+          "description": "Outlines a relevant workflow covering a campaign idea, a basic script, filming, and some team coordination."
+        },
+        {
+          "score": 4,
+          "description": "Gives a clear, practical end-to-end workflow with defined scripting and filming steps, coordination points, and attention to a concise TikTok format."
+        },
+        {
+          "score": 5,
+          "description": "Gives a detailed workflow that anticipates trade-offs, assigns or clarifies team contributions, includes efficient iteration, and explains how the final filmed asset would be checked against the campaign idea."
+        }
+      ],
+      "green_flags": [
+        "Breaks the work into actionable scripting, filming, and coordination steps.",
+        "Recognises that short-form content needs a clear, concise concept.",
+        "Identifies when to involve teammates before filming."
+      ],
+      "red_flags": [
+        "Focuses only on publishing or scheduling and omits content creation.",
+        "Cannot describe a script or filming process.",
+        "Assumes team members will complete key work without clarifying their own contribution."
+      ],
+      "follow_up": "Where would you seek input from the team before filming, and what would you do with that input?"
+    },
+    {
+      "question_id": "sq_003",
+      "question": "Tell us about a time you shared a draft video or script early and received feedback. How did you decide what to change before filming or finalising the content?",
+      "requirement_ids": [
+        "requirement_001"
+      ],
+      "purpose": "Assess the approved Collaboration behaviour in the context of producing TikTok content.",
+      "expected_evidence": [
+        "A specific draft script, storyboard, video, or comparable content example.",
+        "Evidence that the candidate shared work early and sought or received feedback.",
+        "Clear changes made in response to feedback and the resulting outcome."
+      ],
+      "rubric": [
+        {
+          "score": 0,
+          "description": "Says they do not share drafts or explicitly rejects incorporating feedback on content work."
+        },
+        {
+          "score": 1,
+          "description": "Provides no example of sharing draft content or responding to feedback."
+        },
+        {
+          "score": 2,
+          "description": "Mentions receiving feedback but gives no specific draft, changes, or personal role in the process."
+        },
+        {
+          "score": 3,
+          "description": "Describes a relevant draft content example, feedback received, and at least one personally owned change."
+        },
+        {
+          "score": 4,
+          "description": "Provides a specific example of sharing a draft early, explains how feedback was evaluated and incorporated, and describes the resulting improvement to the content."
+        },
+        {
+          "score": 5,
+          "description": "Provides a detailed example with early feedback timing, clear ownership, rationale for accepting or adapting feedback, resulting content outcomes, and reflection on how the process improved later work."
+        }
+      ],
+      "green_flags": [
+        "Shares work before it is final.",
+        "Can explain which feedback led to specific changes.",
+        "Distinguishes useful feedback from changes that did not fit the brief."
+      ],
+      "red_flags": [
+        "Describes refusing or disregarding relevant feedback without a work-related rationale.",
+        "Cannot identify any personal changes after feedback.",
+        "Gives only a vague statement that they are open to feedback."
+      ],
+      "follow_up": "What feedback did you not use, if any, and how did you decide?"
+    },
+    {
+      "question_id": "sq_004",
+      "question": "Tell us about a visual social asset you edited using Canva or a comparable tool. What did you personally change, what feedback did you apply, and what was delivered?",
+      "requirement_ids": [
+        "requirement_002"
+      ],
+      "purpose": "Assess owned evidence of basic visual content editing without requiring prior paid work.",
+      "expected_evidence": [
+        "A specific visual asset from work, study, volunteering, or a personal project.",
+        "The editing tool and changes personally completed.",
+        "Feedback incorporated and a concrete delivered result."
+      ],
+      "rubric": [
+        {
+          "score": 0,
+          "description": "States they have not edited a visual asset and provides no comparable evidence."
+        },
+        {
+          "score": 1,
+          "description": "Provides no relevant visual editing example or personal contribution."
+        },
+        {
+          "score": 2,
+          "description": "Names an editing tool or asset but gives only a generic account with unclear ownership."
+        },
+        {
+          "score": 3,
+          "description": "Describes a relevant asset, a personally completed edit, and a delivered output."
+        },
+        {
+          "score": 4,
+          "description": "Provides a specific example with clear editing ownership, feedback applied, and a concrete result."
+        },
+        {
+          "score": 5,
+          "description": "Provides externally verified editing evidence with clear ownership, trade-offs, results, and reflection."
+        }
+      ],
+      "green_flags": [
+        "Clearly distinguishes personal edits from supplied material.",
+        "Explains how feedback changed the delivered asset.",
+        "Uses an equivalent academic, volunteer, or personal project."
+      ],
+      "red_flags": [
+        "Names a tool without describing any actual edit.",
+        "Attributes all editing decisions and execution to others.",
+        "Provides no concrete delivered visual output."
+      ],
+      "follow_up": "Which edit had the greatest effect on the final asset, and how did you decide?"
+    },
+    {
+      "question_id": "sq_005",
+      "question": "If you were asked to help create three approved TikTok posts in a week, how would you organise your scripting and filming work with the team?",
+      "requirement_ids": [
+        "requirement_001"
+      ],
+      "purpose": "Assess whether the candidate can apply scripting and filming capability to the role's weekly TikTok delivery outcome.",
+      "expected_evidence": [
+        "A practical plan for developing and filming multiple short TikTok posts.",
+        "Prioritisation of scripting, filming, team coordination, and review activity.",
+        "Awareness that content needs approval before delivery."
+      ],
+      "rubric": [
+        {
+          "score": 0,
+          "description": "Proposes no scripting or filming activity, or states they could not contribute to producing the posts."
+        },
+        {
+          "score": 1,
+          "description": "Provides no workable plan for producing short TikTok content with the team."
+        },
+        {
+          "score": 2,
+          "description": "Gives a generic plan with no sequencing of scripts, filming, team coordination, or approval."
+        },
+        {
+          "score": 3,
+          "description": "Outlines a workable weekly plan that includes scripting and filming multiple posts with some team coordination."
+        },
+        {
+          "score": 4,
+          "description": "Gives a specific, feasible plan that sequences scripts, filming, feedback or review, and team coordination to support three approved posts."
+        },
+        {
+          "score": 5,
+          "description": "Provides a detailed plan with prioritisation, contingencies for delays or rework, clear individual and team actions, and an explanation of how approval feedback would be incorporated while maintaining delivery."
+        }
+      ],
+      "green_flags": [
+        "Plans for scripts and filming before final approval.",
+        "Breaks work into manageable steps across the week.",
+        "Accounts for coordination and review with the team."
+      ],
+      "red_flags": [
+        "Treats approval as unnecessary or assumes posts can be delivered without review.",
+        "Offers only broad statements about being organised.",
+        "Does not include any scripting or filming actions."
+      ],
+      "follow_up": "How would you respond if feedback required one of the planned posts to be revised late in the week?"
+    }
+  ],
+  "human_review_guidance": [
+    "Verify examples through specific actions, ownership, context, and outcomes rather than confidence or presentation style.",
+    "Consider equivalent evidence from academic, volunteer, extracurricular, and personal projects appropriate to an internship role.",
+    "Assess the approved requirement and observable collaboration behaviour only; do not use personality, social similarity, or writing polish as proxies for capability.",
+    "Use the rubric consistently, record evidence and uncertainties, and keep progression or rejection decisions with human reviewers rather than making them autonomously."
+  ],
+  "human_edited": false,
+  "last_edited_by": null,
+  "last_edited_at": null
+}

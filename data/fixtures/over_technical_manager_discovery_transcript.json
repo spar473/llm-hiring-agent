@@ -1,0 +1,783 @@
+{
+  "persona_key": "over_technical_manager",
+  "persona_label": "Persona B: Over-technical manager",
+  "brief_source": "docs/SCENARIOS.md",
+  "documented_expected_behaviour": [
+    "Cluster the skills.",
+    "Test whether each is genuinely necessary.",
+    "Separate day-one requirements from learnable skills.",
+    "Calibrate requirements against seniority.",
+    "Flag possible role overloading or role splitting."
+  ],
+  "initial_manager_statement": "For this entry-level intern I need someone who is already fully proficient on day one in: Python, SQL, R, Java, C++, Docker, Kubernetes, AWS, Azure, GCP, Terraform, CI/CD pipelines, REST API design, GraphQL, microservices architecture, PostgreSQL, MongoDB, Redis, Apache Kafka, Airflow, Spark, Hadoop, machine learning model training, deep learning with PyTorch and TensorFlow, retrieval-augmented generation, LangChain, vector databases, prompt engineering, fine-tuning LLMs, MLOps, data engineering pipelines, Tableau, Power BI, Excel macros, statistics, A/B testing, product management, stakeholder presentations, technical writing, Figma for internal tool mockups, Photoshop for the odd deck graphic, project management in Jira, Scrum mastery, budget forecasting, and public speaking. They need every one of these on day one, no exceptions.",
+  "turns": [
+    {
+      "turn_index": 1,
+      "stage_before": "basic_info",
+      "manager_message": "For this entry-level intern I need someone who is already fully proficient on day one in: Python, SQL, R, Java, C++, Docker, Kubernetes, AWS, Azure, GCP, Terraform, CI/CD pipelines, REST API design, GraphQL, microservices architecture, PostgreSQL, MongoDB, Redis, Apache Kafka, Airflow, Spark, Hadoop, machine learning model training, deep learning with PyTorch and TensorFlow, retrieval-augmented generation, LangChain, vector databases, prompt engineering, fine-tuning LLMs, MLOps, data engineering pipelines, Tableau, Power BI, Excel macros, statistics, A/B testing, product management, stakeholder presentations, technical writing, Figma for internal tool mockups, Photoshop for the odd deck graphic, project management in Jira, Scrum mastery, budget forecasting, and public speaking. They need every one of these on day one, no exceptions.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:19:20.965763Z",
+      "elapsed_wall_clock_seconds": 19.754,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "What observable standard should define “fully proficient on day one” across the listed capabilities?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 6
+    },
+    {
+      "turn_index": 2,
+      "stage_before": "basic_info",
+      "manager_message": "Honestly they're all mandatory, this is a technical role. But if you're forcing me to pick, Python, SQL, and basic REST API debugging are what they'll touch in week one. The machine-learning, generative-AI, and cloud infrastructure stack can ramp up over the first couple of months with mentoring. The Scrum, budget forecasting, and presentation skills are just nice to have, not required.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:19:53.921369Z",
+      "elapsed_wall_clock_seconds": 11.546,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "Which skills must an intern already be able to perform independently on day one, and what observable proficiency level is required for each?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 5
+    },
+    {
+      "turn_index": 3,
+      "stage_before": "basic_info",
+      "manager_message": "Only three are day-one requirements: independently write and debug a small Python data-processing script, query existing warehouse tables with SQL, and trace a REST API 4xx or 5xx response using logs and documentation. Every other listed technology is learnable after joining and is preferred rather than mandatory; Scrum, budget forecasting, and presentations are optional.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:20:19.425770Z",
+      "elapsed_wall_clock_seconds": 15.156,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "Do “every other listed technology” and “preferred rather than mandatory” also apply to the previously listed product, financial, communication, presentation, and design skill areas?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 3
+    },
+    {
+      "turn_index": 4,
+      "stage_before": "basic_info",
+      "manager_message": "Yes. Product management, Jira project management, technical writing, Figma, Photoshop, and public speaking are each optional and not required at entry. Statistics, A/B testing, Tableau, Power BI, and Excel macros are preferred and can be learned. The only must-haves are the three observable Python, SQL, and REST tasks I just defined.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:20:43.805456Z",
+      "elapsed_wall_clock_seconds": 13.954,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "What are the specific observable Python, SQL, and REST tasks, and what level of completion is required for each on day one?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 2
+    },
+    {
+      "turn_index": 5,
+      "stage_before": "basic_info",
+      "manager_message": "For completeness, R, Java, and C++ are optional; Docker, Kubernetes, Terraform, and CI/CD are preferred and learnable; AWS, Azure, and GCP are preferred with any one acceptable; PostgreSQL, MongoDB, Redis, Kafka, Airflow, Spark, and Hadoop are preferred exposure only. None of those are day-one requirements.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:21:21.382403Z",
+      "elapsed_wall_clock_seconds": 5.811,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "What observable task and performance standard should the intern meet for each of the Python, SQL, and REST API tasks?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 6
+    }
+  ],
+  "rejected_turns": [
+    {
+      "turn_index": 1,
+      "stage_before": "basic_info",
+      "manager_message": "For this entry-level intern I need someone who is already fully proficient on day one in: Python, SQL, R, Java, C++, Docker, Kubernetes, AWS, Azure, GCP, Terraform, CI/CD pipelines, REST API design, GraphQL, microservices architecture, PostgreSQL, MongoDB, Redis, Apache Kafka, Airflow, Spark, Hadoop, machine learning model training, deep learning with PyTorch and TensorFlow, retrieval-augmented generation, LangChain, vector databases, prompt engineering, fine-tuning LLMs, MLOps, data engineering pipelines, Tableau, Power BI, Excel macros, statistics, A/B testing, product management, stakeholder presentations, technical writing, Figma for internal tool mockups, Photoshop for the odd deck graphic, project management in Jira, Scrum mastery, budget forecasting, and public speaking. They need every one of these on day one, no exceptions.",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:17:13.716447Z",
+      "elapsed_wall_clock_seconds": 34.318,
+      "error_type": "InvalidStructuredOutputError",
+      "provider_diagnostics": {
+        "category": "semantic_validation_failed",
+        "http_status": 200,
+        "error_type": "semantic_validation_failed",
+        "provider_code": null,
+        "retryable": false,
+        "retry_after_seconds": null,
+        "attempted_model": "openai/gpt-5.6-terra",
+        "validation_stage": "semantic_validation",
+        "json_decoder_line": null,
+        "json_decoder_column": null,
+        "json_decoder_position": null,
+        "response_character_count": 14873,
+        "content_empty": false,
+        "finish_reason": "stop",
+        "validation_error_count": 1,
+        "validation_field_locations": [
+          "next_question"
+        ],
+        "validation_error_types": [
+          "invalid_single_question"
+        ]
+      }
+    },
+    {
+      "turn_index": 1,
+      "stage_before": "basic_info",
+      "manager_message": "For this entry-level intern I need someone who is already fully proficient on day one in: Python, SQL, R, Java, C++, Docker, Kubernetes, AWS, Azure, GCP, Terraform, CI/CD pipelines, REST API design, GraphQL, microservices architecture, PostgreSQL, MongoDB, Redis, Apache Kafka, Airflow, Spark, Hadoop, machine learning model training, deep learning with PyTorch and TensorFlow, retrieval-augmented generation, LangChain, vector databases, prompt engineering, fine-tuning LLMs, MLOps, data engineering pipelines, Tableau, Power BI, Excel macros, statistics, A/B testing, product management, stakeholder presentations, technical writing, Figma for internal tool mockups, Photoshop for the odd deck graphic, project management in Jira, Scrum mastery, budget forecasting, and public speaking. They need every one of these on day one, no exceptions.",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:18:40.656060Z",
+      "elapsed_wall_clock_seconds": 27.191,
+      "error_type": "InvalidStructuredOutputError",
+      "provider_diagnostics": {
+        "category": "semantic_validation_failed",
+        "http_status": 200,
+        "error_type": "semantic_validation_failed",
+        "provider_code": null,
+        "retryable": false,
+        "retry_after_seconds": null,
+        "attempted_model": "openai/gpt-5.6-terra",
+        "validation_stage": "semantic_validation",
+        "json_decoder_line": null,
+        "json_decoder_column": null,
+        "json_decoder_position": null,
+        "response_character_count": 15782,
+        "content_empty": false,
+        "finish_reason": "stop",
+        "validation_error_count": 2,
+        "validation_field_locations": [
+          "incremental_requirements.0.priority",
+          "incremental_requirements.2.priority"
+        ],
+        "validation_error_types": [
+          "must_have_conflicts_with_unresolved_ambiguity",
+          "must_have_conflicts_with_unresolved_ambiguity"
+        ]
+      }
+    }
+  ],
+  "final_role_specification": {
+    "role_id": "role_live_over_technical_manager",
+    "version": 6,
+    "parent_version": 5,
+    "review_status": "draft",
+    "basic_info": {
+      "title": "AI Integration Intern",
+      "role_family": "technical",
+      "role_level": "intern",
+      "employment_type": "internship",
+      "division": null,
+      "team": null,
+      "location": null,
+      "work_arrangement": null,
+      "reporting_to": null,
+      "start_date": null,
+      "end_date": null,
+      "initial_manager_statement": "For this entry-level intern I need someone who is already fully proficient on day one in: Python, SQL, R, Java, C++, Docker, Kubernetes, AWS, Azure, GCP, Terraform, CI/CD pipelines, REST API design, GraphQL, microservices architecture, PostgreSQL, MongoDB, Redis, Apache Kafka, Airflow, Spark, Hadoop, machine learning model training, deep learning with PyTorch and TensorFlow, retrieval-augmented generation, LangChain, vector databases, prompt engineering, fine-tuning LLMs, MLOps, data engineering pipelines, Tableau, Power BI, Excel macros, statistics, A/B testing, product management, stakeholder presentations, technical writing, Figma for internal tool mockups, Photoshop for the odd deck graphic, project management in Jira, Scrum mastery, budget forecasting, and public speaking. They need every one of these on day one, no exceptions."
+    },
+    "business_need": {
+      "problem": null,
+      "why_now": null,
+      "cost_of_vacancy": null,
+      "is_replacement": null
+    },
+    "success_outcomes": [],
+    "responsibilities": [],
+    "requirements": [
+      {
+        "requirement_id": "requirement_001",
+        "category": "technical",
+        "name": "Day-one proficiency in software engineering, cloud, and platform technologies",
+        "description": "Fully proficient on day one in Python, SQL, R, Java, C++, Docker, Kubernetes, AWS, Azure, GCP, Terraform, CI/CD pipelines, REST API design, GraphQL, microservices architecture, PostgreSQL, MongoDB, Redis, Apache Kafka, Airflow, Spark, and Hadoop.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states that every listed capability is required on day one with no exceptions.",
+        "evidence_methods": [],
+        "source_statement": "They need every one of these on day one",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_002",
+        "category": "technical",
+        "name": "Day-one proficiency in machine learning, generative AI, and MLOps",
+        "description": "Fully proficient on day one in machine learning model training, deep learning with PyTorch and TensorFlow, retrieval-augmented generation, LangChain, vector databases, prompt engineering, fine-tuning LLMs, MLOps, and data engineering pipelines.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states that every listed capability is required on day one with no exceptions.",
+        "evidence_methods": [],
+        "source_statement": "They need every one of these on day one",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_003",
+        "category": "technical",
+        "name": "Day-one proficiency in analytics and business-intelligence tools and methods",
+        "description": "Fully proficient on day one in Tableau, Power BI, Excel macros, statistics, and A/B testing.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states that every listed capability is required on day one with no exceptions.",
+        "evidence_methods": [],
+        "source_statement": "They need every one of these on day one",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_004",
+        "category": "domain",
+        "name": "Day-one proficiency in product, project, and financial work",
+        "description": "Fully proficient on day one in product management, project management in Jira, Scrum mastery, and budget forecasting.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states that every listed capability is required on day one with no exceptions.",
+        "evidence_methods": [],
+        "source_statement": "They need every one of these on day one",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_005",
+        "category": "behavioural",
+        "name": "Day-one proficiency in communication and presentation work",
+        "description": "Fully proficient on day one in stakeholder presentations, technical writing, and public speaking.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states that every listed capability is required on day one with no exceptions.",
+        "evidence_methods": [],
+        "source_statement": "They need every one of these on day one",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_006",
+        "category": "technical",
+        "name": "Day-one proficiency in design and graphics tools",
+        "description": "Fully proficient on day one in Figma for internal tool mockups and Photoshop for the odd deck graphic.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states that every listed capability is required on day one with no exceptions.",
+        "evidence_methods": [],
+        "source_statement": "They need every one of these on day one",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_007",
+        "category": "technical",
+        "name": "Basic REST API debugging exposure",
+        "description": "The role involves basic REST API debugging in the first week.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager identifies basic REST API debugging as work the intern will touch in week one, but does not explicitly state an entry-level qualification standard.",
+        "evidence_methods": [],
+        "source_statement": "basic REST API debugging are what they'll touch in week one",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_008",
+        "category": "technical",
+        "name": "Machine-learning, generative-AI, and cloud-infrastructure ramp-up",
+        "description": "Machine-learning, generative-AI, and cloud-infrastructure capabilities may be developed during the first couple of months with mentoring.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly states that this stack can ramp up with mentoring rather than requiring day-one capability.",
+        "evidence_methods": [],
+        "source_statement": "cloud infrastructure stack can ramp up over the first couple of months with mentoring",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_009",
+        "category": "domain",
+        "name": "Scrum knowledge",
+        "description": "Scrum is nice to have and not required.",
+        "priority": "optional",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly characterizes Scrum as not required.",
+        "evidence_methods": [],
+        "source_statement": "The Scrum",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_010",
+        "category": "domain",
+        "name": "Budget forecasting skills",
+        "description": "Budget forecasting is nice to have and not required.",
+        "priority": "optional",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly characterizes budget forecasting as not required.",
+        "evidence_methods": [],
+        "source_statement": "budget forecasting",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_011",
+        "category": "behavioural",
+        "name": "Presentation skills",
+        "description": "Presentation skills are nice to have and not required.",
+        "priority": "optional",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly characterizes presentation skills as not required.",
+        "evidence_methods": [],
+        "source_statement": "presentation skills are just nice to have",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_012",
+        "category": "technical",
+        "name": "Python data-processing scripting",
+        "description": "Independently write and debug a small Python data-processing script.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly identifies this as one of only three day-one requirements.",
+        "evidence_methods": [],
+        "source_statement": "Only three are day-one requirements: independently write and debug a small Python data-processing script",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_013",
+        "category": "technical",
+        "name": "SQL warehouse querying",
+        "description": "Query existing warehouse tables with SQL.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly identifies this as one of only three day-one requirements.",
+        "evidence_methods": [],
+        "source_statement": "query existing warehouse tables with SQL",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_014",
+        "category": "technical",
+        "name": "REST API error tracing",
+        "description": "Trace a REST API 4xx or 5xx response using logs and documentation.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly identifies this as one of only three day-one requirements.",
+        "evidence_methods": [],
+        "source_statement": "trace a REST API 4xx or 5xx response using logs and documentation",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_015",
+        "category": "domain",
+        "name": "Optional entry-level product, project, communication, and design capabilities",
+        "description": "Product management, Jira project management, technical writing, Figma, Photoshop, and public speaking are optional and not required at entry.",
+        "priority": "optional",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly classifies each named capability as optional and not required at entry.",
+        "evidence_methods": [],
+        "source_statement": "Product management, Jira project management, technical writing, Figma, Photoshop, and public speaking are each optional and not required at entry.",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_016",
+        "category": "technical",
+        "name": "Preferred analytics and experimentation capabilities",
+        "description": "Statistics, A/B testing, Tableau, Power BI, and Excel macros are preferred and can be learned.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly identifies these capabilities as preferred and learnable.",
+        "evidence_methods": [],
+        "source_statement": "Statistics, A/B testing, Tableau, Power BI, and Excel macros are preferred and can be learned.",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_017",
+        "category": "technical",
+        "name": "R programming language",
+        "description": "R is optional.",
+        "priority": "optional",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly describes R as optional.",
+        "evidence_methods": [],
+        "source_statement": "For completeness",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_018",
+        "category": "technical",
+        "name": "Java programming language",
+        "description": "Java is optional.",
+        "priority": "optional",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager lists Java among technologies described as optional.",
+        "evidence_methods": [],
+        "source_statement": "Java",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_019",
+        "category": "technical",
+        "name": "C++ programming language",
+        "description": "C++ is optional.",
+        "priority": "optional",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly describes C++ as optional.",
+        "evidence_methods": [],
+        "source_statement": "C++ are optional",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_020",
+        "category": "technical",
+        "name": "Containerization, orchestration, infrastructure as code, and CI/CD",
+        "description": "Docker, Kubernetes, Terraform, and CI/CD are preferred and can be learned.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly identifies these as preferred and learnable rather than day-one requirements.",
+        "evidence_methods": [],
+        "source_statement": "Docker, Kubernetes, Terraform, and CI/CD are preferred and learnable",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_021",
+        "category": "technical",
+        "name": "Cloud platform experience",
+        "description": "AWS, Azure, or GCP experience is preferred; experience with any one of the three is acceptable.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states that AWS, Azure, and GCP are preferred and that any one is acceptable.",
+        "evidence_methods": [],
+        "source_statement": "AWS, Azure, and GCP are preferred with any one acceptable",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_022",
+        "category": "technical",
+        "name": "Data-platform and data-processing technology exposure",
+        "description": "Exposure to PostgreSQL, MongoDB, Redis, Kafka, Airflow, Spark, and Hadoop is preferred.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly describes exposure to these technologies as preferred only.",
+        "evidence_methods": [],
+        "source_statement": "PostgreSQL, MongoDB, Redis, Kafka, Airflow, Spark, and Hadoop are preferred exposure only",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      }
+    ],
+    "open_assumptions": [
+      {
+        "assumption_id": "assumption_001",
+        "statement": "Python and SQL are likely technologies the intern will use in the first week, rather than explicitly stated entry requirements.",
+        "source_statement": "Python",
+        "requires_confirmation": true
+      },
+      {
+        "assumption_id": "assumption_002",
+        "statement": "The role is technical in nature.",
+        "source_statement": "this is a technical role",
+        "requires_confirmation": true
+      }
+    ],
+    "open_ambiguities": [
+      {
+        "ambiguity_id": "ambiguity_001",
+        "description": "“Fully proficient on day one” does not specify observable proficiency standards or the expected depth of capability for each listed skill.",
+        "source_statement": "For this entry-level intern I need someone who is already fully proficient on day one in: Python",
+        "why_confirmation_is_needed": "The manager should define how full proficiency will be evidenced or assessed for the required capabilities.",
+        "status": "open",
+        "resolution": null,
+        "resolved_at_turn": null
+      },
+      {
+        "ambiguity_id": "ambiguity_002",
+        "description": "The statement that all skills are mandatory conflicts with the later distinction between week-one work, skills that can ramp up with mentoring, and skills that are not required. The manager needs to identify the actual minimum entry requirements, including whether Python and SQL are required on day one and the expected proficiency level.",
+        "source_statement": "Honestly they're all mandatory",
+        "why_confirmation_is_needed": "The message does not provide a consistent or observable qualification threshold across the named skill areas.",
+        "status": "resolved",
+        "resolution": "Only three are day-one requirements: independently write and debug a small Python data-processing script, query existing warehouse tables with SQL, and trace a REST API 4xx or 5xx response using logs and documentation. Every other listed technology is learnable after joining and is preferred rather than mandatory; Scrum, budget forecasting, and presentations are optional.",
+        "resolved_at_turn": 4
+      },
+      {
+        "ambiguity_id": "ambiguity_003",
+        "description": "It is unclear whether “Every other listed technology” applies only to technical tools or also to the previously listed non-technology areas, such as product, project, financial, communication, presentation, and design work. The manager should identify which of those areas are preferred versus optional or not required.",
+        "source_statement": "Every other listed technology is learnable after joining",
+        "why_confirmation_is_needed": "The term “technology” does not unambiguously cover all previously listed skill areas, so the remaining requirement priorities cannot be determined for those areas.",
+        "status": "resolved",
+        "resolution": "Yes. Product management, Jira project management, technical writing, Figma, Photoshop, and public speaking are each optional and not required at entry. Statistics, A/B testing, Tableau, Power BI, and Excel macros are preferred and can be learned. The only must-haves are the three observable Python, SQL, and REST tasks I just defined.",
+        "resolved_at_turn": 5
+      },
+      {
+        "ambiguity_id": "ambiguity_004",
+        "description": "The three Python, SQL, and REST tasks are described as observable, but this message does not provide the task definitions or the performance standard required for each task.",
+        "source_statement": "The only must-haves are the three observable Python, SQL, and REST tasks I just defined.",
+        "why_confirmation_is_needed": "The observable tasks and their expected level of completion are needed to define the entry requirements.",
+        "status": "open",
+        "resolution": null,
+        "resolved_at_turn": null
+      }
+    ],
+    "company_behaviours": [],
+    "constraints": {
+      "country": null,
+      "location": null,
+      "work_arrangement": null,
+      "work_rights": null,
+      "weekly_hours": null,
+      "travel": null,
+      "languages": [],
+      "jurisdiction_notes": []
+    },
+    "assessment_methods": [],
+    "decision_owner": null,
+    "quality": {
+      "readiness_score": null,
+      "contradictions": [
+        {
+          "contradiction_id": "contradiction_001",
+          "description": "The prior day-one requirement for machine learning, generative AI, and cloud/platform technologies conflicts with the statement that the machine-learning, generative-AI, and cloud-infrastructure stack can be ramped up over the first couple of months with mentoring.",
+          "severity": "low",
+          "source_statements": [
+            "Day-one proficiency in machine learning, generative AI, and MLOps (must_have)",
+            "Day-one proficiency in software engineering, cloud, and platform technologies (must_have)",
+            "cloud infrastructure stack can ramp up over the first couple of months with mentoring"
+          ],
+          "resolution": null,
+          "resolved": false,
+          "resolved_by": null,
+          "resolved_at": null
+        },
+        {
+          "contradiction_id": "contradiction_002",
+          "description": "The prior day-one requirement for product, project, and financial work conflicts with Scrum and budget forecasting being characterized as not required.",
+          "severity": "low",
+          "source_statements": [
+            "Day-one proficiency in product, project, and financial work (must_have)",
+            "The Scrum",
+            "budget forecasting",
+            "not required"
+          ],
+          "resolution": null,
+          "resolved": false,
+          "resolved_by": null,
+          "resolved_at": null
+        },
+        {
+          "contradiction_id": "contradiction_003",
+          "description": "The prior day-one requirement for communication and presentation work conflicts with presentation skills being characterized as not required.",
+          "severity": "low",
+          "source_statements": [
+            "Day-one proficiency in communication and presentation work (must_have)",
+            "presentation skills are just nice to have",
+            "not required"
+          ],
+          "resolution": null,
+          "resolved": false,
+          "resolved_by": null,
+          "resolved_at": null
+        },
+        {
+          "contradiction_id": "contradiction_004",
+          "description": "The manager states that only three capabilities are day-one requirements and that every other listed technology is preferred rather than mandatory, which conflicts with the previously captured day-one mandatory proficiency requirements across multiple additional skill areas.",
+          "severity": "high",
+          "source_statements": [
+            "Only three are day-one requirements: independently write and debug a small Python data-processing script",
+            "Every other listed technology is learnable after joining",
+            "is preferred rather than mandatory"
+          ],
+          "resolution": null,
+          "resolved": false,
+          "resolved_by": null,
+          "resolved_at": null
+        },
+        {
+          "contradiction_id": "contradiction_005",
+          "description": "The manager states that only the three Python, SQL, and REST tasks are must-haves, which conflicts with the already-captured additional day-one must-have proficiencies in software engineering, cloud, platform technologies, machine learning, generative AI, MLOps, analytics, business intelligence, product, project, financial, communication, presentation, and design work.",
+          "severity": "low",
+          "source_statements": [
+            "The only must-haves are the three observable Python, SQL, and REST tasks I just defined.",
+            "Day-one proficiency in software engineering, cloud, and platform technologies (must_have)",
+            "Day-one proficiency in machine learning, generative AI, and MLOps (must_have)",
+            "Day-one proficiency in analytics and business-intelligence tools and methods (must_have)",
+            "Day-one proficiency in product, project, and financial work (must_have)",
+            "Day-one proficiency in communication and presentation work (must_have)",
+            "Day-one proficiency in design and graphics tools (must_have)"
+          ],
+          "resolution": null,
+          "resolved": false,
+          "resolved_by": null,
+          "resolved_at": null
+        }
+      ],
+      "warnings": [],
+      "warning_acknowledgements": []
+    },
+    "audit": {
+      "schema_version": "1.0",
+      "created_at": "2026-07-25T01:18:40.656060Z",
+      "updated_at": "2026-07-25T01:21:27.187189Z",
+      "model": null,
+      "prompt_version": null,
+      "source_ids": []
+    },
+    "human_approved": false,
+    "approved_by": null,
+    "approved_at": null,
+    "approved_sections": []
+  },
+  "final_quality_report": {
+    "readiness_score": 15,
+    "readiness_interpretation": "not ready",
+    "vague_phrases": [],
+    "excessive_requirement_issues": [
+      {
+        "issue_id": "excessive_day_one_must_haves",
+        "rule": "too_many_day_one_must_haves",
+        "message": "9 day-one must-haves are listed; the manager must explicitly identify the top five.",
+        "requirement_ids": [
+          "requirement_001",
+          "requirement_002",
+          "requirement_003",
+          "requirement_004",
+          "requirement_005",
+          "requirement_006",
+          "requirement_012",
+          "requirement_013",
+          "requirement_014"
+        ]
+      },
+      {
+        "issue_id": "excessive_unrelated_clusters",
+        "rule": "unrelated_capability_clusters",
+        "message": "Day-one must-haves span distinct specialist clusters: creative production, data and ai, finance, software engineering.",
+        "requirement_ids": [
+          "requirement_001",
+          "requirement_002",
+          "requirement_003",
+          "requirement_004",
+          "requirement_005",
+          "requirement_006",
+          "requirement_012",
+          "requirement_013",
+          "requirement_014"
+        ]
+      }
+    ],
+    "blockers": [
+      "Business need is missing.",
+      "At least one success outcome is required.",
+      "At least one responsibility is required.",
+      "At least one assessment method is required.",
+      "A human decision owner is required.",
+      "High or critical contradictions must be resolved."
+    ]
+  },
+  "live_run": {
+    "provider": "OpenRouter",
+    "model": "openai/gpt-5.6-terra",
+    "started_at_utc": "2026-07-25T01:18:40.656060Z",
+    "completed_at_utc": "2026-07-25T01:21:45.438948Z",
+    "successful_turn_count": 5,
+    "rejected_turn_count": 2,
+    "provider_elapsed_wall_clock_seconds": 127.73,
+    "run_elapsed_wall_clock_seconds": 184.783
+  }
+}

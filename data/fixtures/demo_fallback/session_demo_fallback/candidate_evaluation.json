@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "evaluation_id": "evaluation_4a809b33619247ab93d047198a5cf0b3",
+  "version": 1,
+  "parent_version": null,
+  "candidate_id": "candidate_fallback_001",
+  "role_id": "role_fallback_marketing_intern",
+  "role_version": 13,
+  "hiring_pack_id": "hiring_pack_076bdf2b9b2946b58a115828c6b6530a",
+  "hiring_pack_version": 1,
+  "source_response_set": {
+    "response_set_id": "responses_demo_fallback_001",
+    "candidate_id": "candidate_fallback_001",
+    "source_role_id": "role_fallback_marketing_intern",
+    "source_role_version": 13,
+    "source_hiring_pack_id": "hiring_pack_076bdf2b9b2946b58a115828c6b6530a",
+    "source_hiring_pack_version": 1,
+    "submitted_at": "2026-07-25T01:28:42Z",
+    "responses": [
+      {
+        "response_id": "response_sq_001",
+        "question_id": "sq_001",
+        "answer_text": "When a TikTok concept I pitched got cut two days before a launch, I asked the brand lead which KPI mattered most, cut the shoot to the one scene that hit it, and we still posted on time. I checked the numbers three days later and it beat our average engagement.",
+        "responded_at": null,
+        "source_metadata": {}
+      },
+      {
+        "response_id": "response_sq_002",
+        "question_id": "sq_002",
+        "answer_text": "Two months ago our brand lead gave me a rough campaign idea for a product launch. I wrote a first script draft the same day, checked it against our target audience with the content lead, then revised the hook before we filmed two days later. During filming I coordinated shot order with our videographer so we could reuse the footage in a follow-up cut.",
+        "responded_at": null,
+        "source_metadata": {}
+      },
+      {
+        "response_id": "response_sq_003",
+        "question_id": "sq_003",
+        "answer_text": "Last month I shared a half-finished campaign draft with the team before I was fully happy with it, specifically to get feedback early. Two teammates flagged that the call-to-action was unclear; I rewrote it that afternoon and used their wording in the final version we shipped that week.",
+        "responded_at": null,
+        "source_metadata": {}
+      },
+      {
+        "response_id": "response_sq_004",
+        "question_id": "sq_004",
+        "answer_text": "For a university club launch last month, I owned the visual edit for three social assets in Canva. I resized the supplied product images, applied the club template, and incorporated two rounds of feedback before the assets were published on schedule.",
+        "responded_at": null,
+        "source_metadata": {}
+      },
+      {
+        "response_id": "response_sq_005",
+        "question_id": "sq_005",
+        "answer_text": "In my current role I already run on this cadence: I draft all three scripts on Monday, get them approved by the brand lead by Tuesday, film Tuesday afternoon and Wednesday, and leave Thursday for revisions so every post is reviewed and signed off before it goes out Friday.",
+        "responded_at": null,
+        "source_metadata": {}
+      }
+    ],
+    "supporting_evidence": [],
+    "reviewer_notes": null,
+    "source_metadata": {}
+  },
+  "evaluated_at": "2026-07-25T01:29:12Z",
+  "evaluated_by": "Fixture Hiring Manager",
+  "model": "offline-reviewed-fixture",
+  "provider": "Offline Fixture",
+  "prompt_version": "candidate_evaluator_v2",
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "total_tokens": 0,
+  "prompt_injection_detected": false,
+  "prompt_injection_indicators": [],
+  "evidence_items": [
+    {
+      "evidence_id": "evidence_fallback_001",
+      "requirement_id": "requirement_001",
+      "source_type": "screening_response",
+      "source_id": "response_sq_001",
+      "quote": "When a TikTok concept I pitched got cut two days before a launch, I asked the brand lead which KPI mattered most, cut the shoot to the one scene that hit it, and we still posted on time. I checked the numbers three days later and it beat our average engagement.",
+      "location": "Screening question sq_001",
+      "direct": true,
+      "relevance": 0.95,
+      "source_question_id": "sq_001",
+      "evidence_type": "direct",
+      "evidence_quality": "strong_ownership_action_result",
+      "ownership": "owned",
+      "specificity": 0.92,
+      "recency_relevant": false,
+      "recency": null,
+      "action_described": true,
+      "outcome_evidence": true,
+      "reflection_evidence": false,
+      "hypothetical": false,
+      "verification_status": "unverified_candidate_claim",
+      "contradiction_status": "none",
+      "evaluator_explanation": "Specific scripting, filming, adaptation, and delivery evidence."
+    },
+    {
+      "evidence_id": "evidence_fallback_002",
+      "requirement_id": "requirement_002",
+      "source_type": "screening_response",
+      "source_id": "response_sq_004",
+      "quote": "For a university club launch last month, I owned the visual edit for three social assets in Canva. I resized the supplied product images, applied the club template, and incorporated two rounds of feedback before the assets were published on schedule.",
+      "location": "Screening question sq_004",
+      "direct": true,
+      "relevance": 0.95,
+      "source_question_id": "sq_004",
+      "evidence_type": "direct",
+      "evidence_quality": "strong_ownership_action_result",
+      "ownership": "owned",
+      "specificity": 0.92,
+      "recency_relevant": false,
+      "recency": null,
+      "action_described": true,
+      "outcome_evidence": true,
+      "reflection_evidence": false,
+      "hypothetical": false,
+      "verification_status": "unverified_candidate_claim",
+      "contradiction_status": "none",
+      "evaluator_explanation": "Specific visual editing, feedback, and delivery evidence."
+    }
+  ],
+  "assessments": [
+    {
+      "requirement_id": "requirement_001",
+      "score": 4,
+      "scale_max": 5,
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "evidence_id": "evidence_fallback_001",
+          "requirement_id": "requirement_001",
+          "source_type": "screening_response",
+          "source_id": "response_sq_001",
+          "quote": "When a TikTok concept I pitched got cut two days before a launch, I asked the brand lead which KPI mattered most, cut the shoot to the one scene that hit it, and we still posted on time. I checked the numbers three days later and it beat our average engagement.",
+          "location": "Screening question sq_001",
+          "direct": true,
+          "relevance": 0.95,
+          "source_question_id": "sq_001",
+          "evidence_type": "direct",
+          "evidence_quality": "strong_ownership_action_result",
+          "ownership": "owned",
+          "specificity": 0.92,
+          "recency_relevant": false,
+          "recency": null,
+          "action_described": true,
+          "outcome_evidence": true,
+          "reflection_evidence": false,
+          "hypothetical": false,
+          "verification_status": "unverified_candidate_claim",
+          "contradiction_status": "none",
+          "evaluator_explanation": "Specific scripting, filming, adaptation, and delivery evidence."
+        }
+      ],
+      "reasoning_summary": "The cited response describes owned actions and a concrete delivered result. It remains an unverified candidate claim.",
+      "missing_evidence": [],
+      "contradictory_evidence": [],
+      "human_follow_up": "Which artefact or referee could a human reviewer use to verify this example?",
+      "review_required": false,
+      "requirement_label": "Weekly TikTok content scripting",
+      "requirement_priority": "must_have",
+      "relevant_question_ids": [
+        "sq_001",
+        "sq_002",
+        "sq_003",
+        "sq_005"
+      ],
+      "evidence_item_ids": [
+        "evidence_fallback_001"
+      ],
+      "rubric_question_id": "sq_001",
+      "rubric_anchor": "Provides a specific TikTok or comparable short-form example, clearly explains script and filming actions, collaboration, and a concrete output or result.",
+      "evidence_quality": "strong_ownership_action_result",
+      "strengths": [
+        "Specific scripting, filming, adaptation, and delivery evidence."
+      ],
+      "concerns": [],
+      "contradiction_evidence_ids": [],
+      "reviewer_explanation": "The cited response describes owned actions and a concrete delivered result. It remains an unverified candidate claim."
+    },
+    {
+      "requirement_id": "requirement_002",
+      "score": 4,
+      "scale_max": 5,
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "evidence_id": "evidence_fallback_002",
+          "requirement_id": "requirement_002",
+          "source_type": "screening_response",
+          "source_id": "response_sq_004",
+          "quote": "For a university club launch last month, I owned the visual edit for three social assets in Canva. I resized the supplied product images, applied the club template, and incorporated two rounds of feedback before the assets were published on schedule.",
+          "location": "Screening question sq_004",
+          "direct": true,
+          "relevance": 0.95,
+          "source_question_id": "sq_004",
+          "evidence_type": "direct",
+          "evidence_quality": "strong_ownership_action_result",
+          "ownership": "owned",
+          "specificity": 0.92,
+          "recency_relevant": false,
+          "recency": null,
+          "action_described": true,
+          "outcome_evidence": true,
+          "reflection_evidence": false,
+          "hypothetical": false,
+          "verification_status": "unverified_candidate_claim",
+          "contradiction_status": "none",
+          "evaluator_explanation": "Specific visual editing, feedback, and delivery evidence."
+        }
+      ],
+      "reasoning_summary": "The cited response describes owned actions and a concrete delivered result. It remains an unverified candidate claim.",
+      "missing_evidence": [],
+      "contradictory_evidence": [],
+      "human_follow_up": "Which artefact or referee could a human reviewer use to verify this example?",
+      "review_required": false,
+      "requirement_label": "Basic visual content editing",
+      "requirement_priority": "preferred",
+      "relevant_question_ids": [
+        "sq_004"
+      ],
+      "evidence_item_ids": [
+        "evidence_fallback_002"
+      ],
+      "rubric_question_id": "sq_004",
+      "rubric_anchor": "Provides a specific example with clear editing ownership, feedback applied, and a concrete result.",
+      "evidence_quality": "strong_ownership_action_result",
+      "strengths": [
+        "Specific visual editing, feedback, and delivery evidence."
+      ],
+      "concerns": [],
+      "contradiction_evidence_ids": [],
+      "reviewer_explanation": "The cited response describes owned actions and a concrete delivered result. It remains an unverified candidate claim."
+    }
+  ],
+  "overall_confidence": 0.82,
+  "requirement_coverage": 1.0,
+  "must_have_coverage": 1.0,
+  "strengths": [
+    "Specific scripting, filming, adaptation, and delivery evidence.",
+    "Specific visual editing, feedback, and delivery evidence."
+  ],
+  "concerns": [],
+  "missing_evidence": [],
+  "contradictions": [],
+  "uncertainties": [],
+  "human_follow_ups": [
+    "Which artefact or referee could a human reviewer use to verify this example?"
+  ],
+  "reviewer_guidance": [
+    "A human reviewer remains accountable for every progression or hiring decision.",
+    "Verify candidate claims and consider approved equivalent evidence before acting."
+  ],
+  "routing": "strong_evidence",
+  "review_status": "needs_review",
+  "human_edited": false,
+  "last_edited_by": null,
+  "last_edited_at": null,
+  "audit": {
+    "schema_version": "1.0",
+    "created_at": "2026-07-25T01:29:12Z",
+    "updated_at": "2026-07-25T01:29:12Z",
+    "model": "offline-reviewed-fixture",
+    "prompt_version": "candidate_evaluator_v2",
+    "source_ids": [
+      "role_fallback_marketing_intern",
+      "hiring_pack_076bdf2b9b2946b58a115828c6b6530a",
+      "responses_demo_fallback_001"
+    ]
+  }
+}

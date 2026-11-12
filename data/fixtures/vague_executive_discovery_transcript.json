@@ -1,0 +1,382 @@
+{
+  "persona_key": "vague_executive",
+  "persona_label": "Persona A: Vague executive",
+  "brief_source": "docs/SCENARIOS.md",
+  "documented_expected_behaviour": [
+    "Break the statement into outcomes, priorities, scope, and trade-offs.",
+    "Ask for concrete examples.",
+    "Force prioritisation rather than recording vague adjectives."
+  ],
+  "initial_manager_statement": "I need a superstar who can do a bit of everything.",
+  "turns": [
+    {
+      "turn_index": 1,
+      "stage_before": "basic_info",
+      "manager_message": "I need a superstar who can do a bit of everything.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:15:46.536818Z",
+      "elapsed_wall_clock_seconds": 2.516,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "What are the three most important responsibilities or outcomes this Head of Growth must own?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 0
+    },
+    {
+      "turn_index": 2,
+      "stage_before": "basic_info",
+      "manager_message": "Honestly, just whoever can jump in and handle whatever the business throws at them - sales, marketing, ops, whatever's on fire that week. I trust them to figure out the priorities themselves.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:16:02.656601Z",
+      "elapsed_wall_clock_seconds": 5.926,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "What are the three most important outcomes this Head of Growth must own in the first 12 months, and which of sales, marketing, and operations are within their formal decision authority?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 3
+    },
+    {
+      "turn_index": 3,
+      "stage_before": "basic_info",
+      "manager_message": "My single most important priority is growing new-customer revenue by $2M this quarter, measured as the total value of new contracts signed with net-new logos.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:16:34.798007Z",
+      "elapsed_wall_clock_seconds": 3.096,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "Which functions does this role own versus support in delivering the $2M new-customer revenue target?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 2
+    },
+    {
+      "turn_index": 4,
+      "stage_before": "basic_info",
+      "manager_message": "This role directly owns outbound sales and partnership deal-sourcing to hit that target.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:16:46.096597Z",
+      "elapsed_wall_clock_seconds": 1.91,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "What decisions can this role make independently, what resources are available, and when must it escalate?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 2
+    }
+  ],
+  "rejected_turns": [
+    {
+      "turn_index": 3,
+      "stage_before": "basic_info",
+      "manager_message": "My single most important priority is growing new-customer revenue by  this quarter, measured as the total value of new contracts signed with net-new logos.",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:16:15.816552Z",
+      "elapsed_wall_clock_seconds": 4.407,
+      "error_type": "InvalidStructuredOutputError",
+      "provider_diagnostics": {
+        "category": "semantic_validation_failed",
+        "http_status": 200,
+        "error_type": "semantic_validation_failed",
+        "provider_code": null,
+        "retryable": false,
+        "retry_after_seconds": null,
+        "attempted_model": "openai/gpt-5.6-terra",
+        "validation_stage": "semantic_validation",
+        "json_decoder_line": null,
+        "json_decoder_column": null,
+        "json_decoder_position": null,
+        "response_character_count": 1430,
+        "content_empty": false,
+        "finish_reason": "stop",
+        "validation_error_count": 1,
+        "validation_field_locations": [
+          "incremental_requirements.0.priority"
+        ],
+        "validation_error_types": [
+          "must_have_conflicts_with_unresolved_ambiguity"
+        ]
+      }
+    }
+  ],
+  "final_role_specification": {
+    "role_id": "role_live_vague_executive",
+    "version": 5,
+    "parent_version": 4,
+    "review_status": "draft",
+    "basic_info": {
+      "title": "Head of Growth",
+      "role_family": "executive",
+      "role_level": "executive",
+      "employment_type": "permanent",
+      "division": null,
+      "team": null,
+      "location": null,
+      "work_arrangement": null,
+      "reporting_to": null,
+      "start_date": null,
+      "end_date": null,
+      "initial_manager_statement": "I need a superstar who can do a bit of everything."
+    },
+    "business_need": {
+      "problem": null,
+      "why_now": null,
+      "cost_of_vacancy": null,
+      "is_replacement": null
+    },
+    "success_outcomes": [],
+    "responsibilities": [],
+    "requirements": [
+      {
+        "requirement_id": "requirement_001",
+        "category": "behavioural",
+        "name": "Self-directed prioritisation",
+        "description": "Ability to determine priorities independently.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states trust in the person to set priorities themselves, but does not define decision boundaries or expected outcomes.",
+        "evidence_methods": [],
+        "source_statement": "I trust them to figure out the priorities themselves",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_002",
+        "category": "domain",
+        "name": "Cross-functional business support",
+        "description": "Ability to contribute across sales, marketing, and operations as business needs arise.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager identifies sales, marketing, and operations as areas the person may need to handle, while the extent and accountability in each area are not defined.",
+        "evidence_methods": [],
+        "source_statement": "handle whatever the business throws at them - sales",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_003",
+        "category": "behavioural",
+        "name": "Adaptability to changing business needs",
+        "description": "Ability to respond to changing, urgent business needs.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager describes work changing according to what is urgent in a given week, without defining the types or frequency of such needs.",
+        "evidence_methods": [],
+        "source_statement": "whatever's on fire that week",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_004",
+        "category": "domain",
+        "name": "New-customer revenue growth target",
+        "description": "Grow new-customer revenue by $2M during the quarter.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager identifies this as the single most important priority and specifies the target and timeframe.",
+        "evidence_methods": [],
+        "source_statement": "My single most important priority is growing new-customer revenue by $2M this quarter",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_005",
+        "category": "domain",
+        "name": "New-customer revenue measurement",
+        "description": "Measure new-customer revenue as the total value of new contracts signed with net-new logos.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly defines how the stated priority will be measured.",
+        "evidence_methods": [],
+        "source_statement": "measured as the total value of new contracts signed with net-new logos",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_006",
+        "category": "technical",
+        "name": "Outbound sales ownership",
+        "description": "Direct ownership of outbound sales.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager explicitly states that the role directly owns outbound sales.",
+        "evidence_methods": [],
+        "source_statement": "This role directly owns outbound sales",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_007",
+        "category": "domain",
+        "name": "Partnership deal-sourcing",
+        "description": "Ownership of partnership deal-sourcing to contribute to the stated target.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states that partnership deal-sourcing is owned to hit the target.",
+        "evidence_methods": [],
+        "source_statement": "partnership deal-sourcing to hit that target",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      }
+    ],
+    "open_assumptions": [
+      {
+        "assumption_id": "assumption_001",
+        "statement": "The role may be expected to work across functions beyond a conventional growth remit.",
+        "source_statement": "handle whatever the business throws at them - sales",
+        "requires_confirmation": true
+      }
+    ],
+    "open_ambiguities": [
+      {
+        "ambiguity_id": "ambiguity_001",
+        "description": "“Superstar” is subjective language and does not define observable, job-relevant capabilities or collaborative behaviours. Clarify the specific outcomes, skills, and scope expected for this Head of Growth role.",
+        "source_statement": "I need a superstar who can do a bit of everything.",
+        "why_confirmation_is_needed": "The statement does not identify which responsibilities or capabilities are required, or how success should be evaluated.",
+        "status": "resolved",
+        "resolution": "My single most important priority is growing new-customer revenue by $2M this quarter, measured as the total value of new contracts signed with net-new logos.",
+        "resolved_at_turn": 4
+      },
+      {
+        "ambiguity_id": "ambiguity_002",
+        "description": "The expected scope, ownership, and outcomes across sales, marketing, and operations are not defined. Clarify which functions this role owns versus supports, and the outcomes it is accountable for.",
+        "source_statement": "handle whatever the business throws at them - sales",
+        "why_confirmation_is_needed": "The statement names several functions but does not establish the role's responsibilities, authority, or success measures in them.",
+        "status": "resolved",
+        "resolution": "This role directly owns outbound sales and partnership deal-sourcing to hit that target.",
+        "resolved_at_turn": 5
+      },
+      {
+        "ambiguity_id": "ambiguity_003",
+        "description": "The boundaries for independent prioritisation are not defined. Clarify the decisions the role can make independently, available resources, and escalation expectations.",
+        "source_statement": "I trust them to figure out the priorities themselves",
+        "why_confirmation_is_needed": "Independent prioritisation can require different skills and authority depending on decision rights and constraints.",
+        "status": "open",
+        "resolution": null,
+        "resolved_at_turn": null
+      },
+      {
+        "ambiguity_id": "ambiguity_004",
+        "description": "“Jump in” and handling “whatever's on fire” do not define observable, job-relevant capabilities or the expected cadence of urgent work. Clarify the specific capabilities and collaborative behaviours expected when urgent issues arise.",
+        "source_statement": "just whoever can jump in",
+        "why_confirmation_is_needed": "The language is broad and does not specify what effective support or response looks like.",
+        "status": "open",
+        "resolution": null,
+        "resolved_at_turn": null
+      }
+    ],
+    "company_behaviours": [],
+    "constraints": {
+      "country": null,
+      "location": null,
+      "work_arrangement": null,
+      "work_rights": null,
+      "weekly_hours": null,
+      "travel": null,
+      "languages": [],
+      "jurisdiction_notes": []
+    },
+    "assessment_methods": [],
+    "decision_owner": null,
+    "quality": {
+      "readiness_score": null,
+      "contradictions": [
+        {
+          "contradiction_id": "contradiction_001",
+          "description": "The stated cross-functional, reactive scope may extend beyond the known Head of Growth title, but the message does not clarify whether this is temporary support or formal responsibility.",
+          "severity": "low",
+          "source_statements": [
+            "Title: Head of Growth",
+            "handle whatever the business throws at them - sales",
+            "marketing",
+            "ops"
+          ],
+          "resolution": null,
+          "resolved": false,
+          "resolved_by": null,
+          "resolved_at": null
+        }
+      ],
+      "warnings": [],
+      "warning_acknowledgements": []
+    },
+    "audit": {
+      "schema_version": "1.0",
+      "created_at": "2026-07-25T01:15:46.536818Z",
+      "updated_at": "2026-07-25T01:16:48.008503Z",
+      "model": null,
+      "prompt_version": null,
+      "source_ids": []
+    },
+    "human_approved": false,
+    "approved_by": null,
+    "approved_at": null,
+    "approved_sections": []
+  },
+  "final_quality_report": {
+    "readiness_score": 15,
+    "readiness_interpretation": "not ready",
+    "vague_phrases": [
+      {
+        "phrase": "superstar",
+        "category": "inflated_label",
+        "source": "initial manager statement"
+      }
+    ],
+    "excessive_requirement_issues": [],
+    "blockers": [
+      "Business need is missing.",
+      "At least one success outcome is required.",
+      "At least one responsibility is required.",
+      "At least one assessment method is required.",
+      "A human decision owner is required."
+    ]
+  },
+  "live_run": {
+    "provider": "OpenRouter",
+    "model": "openai/gpt-5.6-terra",
+    "started_at_utc": "2026-07-25T01:15:46.536818Z",
+    "completed_at_utc": "2026-07-25T01:16:53.436558Z",
+    "successful_turn_count": 4,
+    "rejected_turn_count": 1,
+    "provider_elapsed_wall_clock_seconds": 17.855,
+    "run_elapsed_wall_clock_seconds": 66.9
+  }
+}

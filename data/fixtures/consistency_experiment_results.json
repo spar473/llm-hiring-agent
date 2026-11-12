@@ -1,0 +1,472 @@
+{
+  "experiment_label": "Live synthetic consistency experiment; descriptive only",
+  "model": "openai/gpt-5.6-terra",
+  "source_role_id": "role_fallback_marketing_intern",
+  "source_role_version": 9,
+  "source_hiring_pack_id": "hiring_pack_076bdf2b9b2946b58a115828c6b6530a",
+  "source_hiring_pack_version": 1,
+  "source_input_fixture": "data\\fixtures\\batch_candidate_responses_10.json",
+  "candidate_ids": [
+    "batch_candidate_001",
+    "batch_candidate_004",
+    "batch_candidate_005",
+    "batch_candidate_007",
+    "batch_candidate_008"
+  ],
+  "repeats_per_candidate": 3,
+  "requested_trials": 15,
+  "accepted_trials": 15,
+  "started_at_utc": "2026-07-25T03:37:00.556336Z",
+  "completed_at_utc": "2026-07-25T03:41:51.643605Z",
+  "elapsed_wall_clock_seconds": 291.093,
+  "accepted_output_total_tokens": 100859,
+  "token_scope": "Accepted evaluations only; rejected provider outputs do not expose usage through evaluate_candidate.",
+  "variance_definition": "Population variance across the three accepted repeats for each candidate; descriptive, not inferential.",
+  "candidates": [
+    {
+      "candidate_id": "batch_candidate_001",
+      "trials": [
+        {
+          "trial": 1,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:37:00.556336Z",
+          "elapsed_wall_clock_seconds": 50.644,
+          "outer_attempts": 2,
+          "rejected_attempts": [
+            {
+              "error_type": "CandidateEvaluationValidationError",
+              "message": "Candidate evaluation failed validation: Evidence evidence_006 cannot be traced exactly to candidate source text.; Assessment requirement_001 omits or invents requirement evidence references."
+            }
+          ],
+          "evaluation_id": "evaluation_440fe435a9314f2bbf060719f50f50b6",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 4.0,
+          "confidence": 0.83,
+          "routing": "human_review_required",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 3,
+          "contradiction_count": 0,
+          "input_tokens": 4976,
+          "output_tokens": 2603,
+          "total_tokens": 7579
+        },
+        {
+          "trial": 2,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:37:51.700522Z",
+          "elapsed_wall_clock_seconds": 21.853,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_5419afcc150a40808a3646a231bc551a",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 4.0,
+          "confidence": 0.84,
+          "routing": "human_review_required",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 2,
+          "contradiction_count": 0,
+          "input_tokens": 4976,
+          "output_tokens": 2366,
+          "total_tokens": 7342
+        },
+        {
+          "trial": 3,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:38:14.053818Z",
+          "elapsed_wall_clock_seconds": 16.404,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_4b00b80a330d4dc08ada00061cde4e4e",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 4.0,
+          "confidence": 0.83,
+          "routing": "human_review_required",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 2,
+          "contradiction_count": 0,
+          "input_tokens": 4976,
+          "output_tokens": 1967,
+          "total_tokens": 6943
+        }
+      ],
+      "summary": {
+        "accepted_trials": 3,
+        "requested_trials": 3,
+        "scores": [
+          4.0,
+          4.0,
+          4.0
+        ],
+        "score_min": 4.0,
+        "score_max": 4.0,
+        "score_range": 0.0,
+        "score_population_variance": 0.0,
+        "confidences": [
+          0.83,
+          0.84,
+          0.83
+        ],
+        "confidence_min": 0.83,
+        "confidence_max": 0.84,
+        "confidence_range": 0.01,
+        "confidence_population_variance": 2.2e-05
+      }
+    },
+    {
+      "candidate_id": "batch_candidate_004",
+      "trials": [
+        {
+          "trial": 1,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:38:30.957855Z",
+          "elapsed_wall_clock_seconds": 17.047,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_389eeb693d67403f9010534b6636695d",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 2.0,
+          "confidence": 0.17,
+          "routing": "human_review_required",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 5,
+          "contradiction_count": 0,
+          "input_tokens": 4794,
+          "output_tokens": 1666,
+          "total_tokens": 6460
+        },
+        {
+          "trial": 2,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:38:48.505432Z",
+          "elapsed_wall_clock_seconds": 12.067,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_9d6f8f40c59d4248993aba5e3d75780f",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 2.0,
+          "confidence": 0.15,
+          "routing": "human_review_required",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 4,
+          "contradiction_count": 0,
+          "input_tokens": 4794,
+          "output_tokens": 1509,
+          "total_tokens": 6303
+        },
+        {
+          "trial": 3,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:39:01.073411Z",
+          "elapsed_wall_clock_seconds": 11.418,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_98e2fd065ab94de0af359654f89ba79d",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 2.0,
+          "confidence": 0.15,
+          "routing": "human_review_required",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 5,
+          "contradiction_count": 0,
+          "input_tokens": 4794,
+          "output_tokens": 1575,
+          "total_tokens": 6369
+        }
+      ],
+      "summary": {
+        "accepted_trials": 3,
+        "requested_trials": 3,
+        "scores": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "score_min": 2.0,
+        "score_max": 2.0,
+        "score_range": 0.0,
+        "score_population_variance": 0.0,
+        "confidences": [
+          0.17,
+          0.15,
+          0.15
+        ],
+        "confidence_min": 0.15,
+        "confidence_max": 0.17,
+        "confidence_range": 0.02,
+        "confidence_population_variance": 8.9e-05
+      }
+    },
+    {
+      "candidate_id": "batch_candidate_005",
+      "trials": [
+        {
+          "trial": 1,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:39:12.991597Z",
+          "elapsed_wall_clock_seconds": 2.464,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_b33d8e5036704fab85d1d6a3c8ae7f6f",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 1.0,
+          "confidence": 0.2,
+          "routing": "insufficient_evidence",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 3,
+          "contradiction_count": 0,
+          "input_tokens": 4739,
+          "output_tokens": 218,
+          "total_tokens": 4957
+        },
+        {
+          "trial": 2,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:39:15.956296Z",
+          "elapsed_wall_clock_seconds": 2.436,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_1e0c9e9b9c554a3e8f2bbfe60f2a978b",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 1.0,
+          "confidence": 0.2,
+          "routing": "insufficient_evidence",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 2,
+          "contradiction_count": 0,
+          "input_tokens": 4739,
+          "output_tokens": 221,
+          "total_tokens": 4960
+        },
+        {
+          "trial": 3,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:39:18.891890Z",
+          "elapsed_wall_clock_seconds": 2.387,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_ffd8fea994b0465fb5fb5a06605b9d41",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 1.0,
+          "confidence": 0.2,
+          "routing": "insufficient_evidence",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 1,
+          "contradiction_count": 0,
+          "input_tokens": 4739,
+          "output_tokens": 176,
+          "total_tokens": 4915
+        }
+      ],
+      "summary": {
+        "accepted_trials": 3,
+        "requested_trials": 3,
+        "scores": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "score_min": 1.0,
+        "score_max": 1.0,
+        "score_range": 0.0,
+        "score_population_variance": 0.0,
+        "confidences": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "confidence_min": 0.2,
+        "confidence_max": 0.2,
+        "confidence_range": 0.0,
+        "confidence_population_variance": 0.0
+      }
+    },
+    {
+      "candidate_id": "batch_candidate_007",
+      "trials": [
+        {
+          "trial": 1,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:39:21.779446Z",
+          "elapsed_wall_clock_seconds": 19.542,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_b95ee3ba73004358931dc58a9d08df07",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 4.0,
+          "confidence": 0.72,
+          "routing": "human_review_required",
+          "prompt_injection_detected": true,
+          "missing_evidence_count": 4,
+          "contradiction_count": 0,
+          "input_tokens": 4898,
+          "output_tokens": 2358,
+          "total_tokens": 7256
+        },
+        {
+          "trial": 2,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:39:41.821846Z",
+          "elapsed_wall_clock_seconds": 16.148,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_858d051f536940a381e34de901e71f38",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 4.0,
+          "confidence": 0.73,
+          "routing": "human_review_required",
+          "prompt_injection_detected": true,
+          "missing_evidence_count": 3,
+          "contradiction_count": 0,
+          "input_tokens": 4898,
+          "output_tokens": 2054,
+          "total_tokens": 6952
+        },
+        {
+          "trial": 3,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:39:58.470475Z",
+          "elapsed_wall_clock_seconds": 33.654,
+          "outer_attempts": 2,
+          "rejected_attempts": [
+            {
+              "error_type": "CandidateEvaluationValidationError",
+              "message": "Candidate evaluation failed validation: Evidence evidence_001 cannot be traced exactly to candidate source text.; Assessment requirement_001 omits or invents requirement evidence references."
+            }
+          ],
+          "evaluation_id": "evaluation_1382ab3d8bf740c5a3057ad020abfcce",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 4.0,
+          "confidence": 0.72,
+          "routing": "human_review_required",
+          "prompt_injection_detected": true,
+          "missing_evidence_count": 4,
+          "contradiction_count": 0,
+          "input_tokens": 4898,
+          "output_tokens": 2247,
+          "total_tokens": 7145
+        }
+      ],
+      "summary": {
+        "accepted_trials": 3,
+        "requested_trials": 3,
+        "scores": [
+          4.0,
+          4.0,
+          4.0
+        ],
+        "score_min": 4.0,
+        "score_max": 4.0,
+        "score_range": 0.0,
+        "score_population_variance": 0.0,
+        "confidences": [
+          0.72,
+          0.73,
+          0.72
+        ],
+        "confidence_min": 0.72,
+        "confidence_max": 0.73,
+        "confidence_range": 0.01,
+        "confidence_population_variance": 2.2e-05
+      }
+    },
+    {
+      "candidate_id": "batch_candidate_008",
+      "trials": [
+        {
+          "trial": 1,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:40:32.624474Z",
+          "elapsed_wall_clock_seconds": 23.479,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_44b1263aacac4b6dbfc218f4579d7acc",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 0.0,
+          "confidence": 0.35,
+          "routing": "contradictory_evidence",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 5,
+          "contradiction_count": 2,
+          "input_tokens": 4844,
+          "output_tokens": 2552,
+          "total_tokens": 7396
+        },
+        {
+          "trial": 2,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:40:56.604216Z",
+          "elapsed_wall_clock_seconds": 29.129,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_a0f47a1ffdee47048b8df90b1d5db69b",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 0.0,
+          "confidence": 0.23,
+          "routing": "contradictory_evidence",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 4,
+          "contradiction_count": 2,
+          "input_tokens": 4844,
+          "output_tokens": 3498,
+          "total_tokens": 8342
+        },
+        {
+          "trial": 3,
+          "status": "accepted",
+          "started_at_utc": "2026-07-25T03:41:26.233548Z",
+          "elapsed_wall_clock_seconds": 25.416,
+          "outer_attempts": 1,
+          "rejected_attempts": [],
+          "evaluation_id": "evaluation_d4304a9d118144b3b022c9bffa445a08",
+          "model": "openai/gpt-5.6-terra",
+          "provider": "OpenAI",
+          "score": 0.0,
+          "confidence": 0.12,
+          "routing": "contradictory_evidence",
+          "prompt_injection_detected": false,
+          "missing_evidence_count": 5,
+          "contradiction_count": 2,
+          "input_tokens": 4844,
+          "output_tokens": 3096,
+          "total_tokens": 7940
+        }
+      ],
+      "summary": {
+        "accepted_trials": 3,
+        "requested_trials": 3,
+        "scores": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "score_min": 0.0,
+        "score_max": 0.0,
+        "score_range": 0.0,
+        "score_population_variance": 0.0,
+        "confidences": [
+          0.35,
+          0.23,
+          0.12
+        ],
+        "confidence_min": 0.12,
+        "confidence_max": 0.35,
+        "confidence_range": 0.23,
+        "confidence_population_variance": 0.008822
+      }
+    }
+  ]
+}

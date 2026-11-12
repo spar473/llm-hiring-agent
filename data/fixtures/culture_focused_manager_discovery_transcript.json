@@ -1,0 +1,202 @@
+{
+  "persona_key": "culture_focused_manager",
+  "persona_label": "Persona C: Culture-focused manager",
+  "brief_source": "docs/SCENARIOS.md",
+  "documented_expected_behaviour": [
+    "Convert subjective culture language into observable workplace behaviours.",
+    "Avoid assessing similarity, likeability, or background resemblance.",
+    "Link behaviours to role situations and Company Values."
+  ],
+  "initial_manager_statement": "Skills can be taught. I need someone who gets our vibe.",
+  "turns": [
+    {
+      "turn_index": 1,
+      "stage_before": "basic_info",
+      "manager_message": "Skills can be taught. I need someone who gets our vibe.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:22:13.375313Z",
+      "elapsed_wall_clock_seconds": 2.087,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "What observable, job-relevant behaviours or collaboration expectations would show that the person “gets our vibe”?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 0
+    },
+    {
+      "turn_index": 2,
+      "stage_before": "basic_info",
+      "manager_message": "You know, just someone who'd fit right in with the team at the pub on a Friday, laughs at the same jokes, doesn't take themselves too seriously. If I click with them in the interview, that's usually a good sign.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:22:23.065663Z",
+      "elapsed_wall_clock_seconds": 2.447,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "What observable, job-relevant collaboration behaviours should demonstrate fit with the team?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 0
+    },
+    {
+      "turn_index": 3,
+      "stage_before": "basic_info",
+      "manager_message": "Okay, concretely: when a campaign deadline moves up and priorities clash, they need to say so directly to the team instead of quietly resenting it, and they should offer to help a teammate who's behind even when it's not their job.",
+      "stage_after": "basic_info",
+      "model": "openai/gpt-5.6-terra",
+      "started_at_utc": "2026-07-25T01:22:33.160714Z",
+      "elapsed_wall_clock_seconds": 2.645,
+      "next_question": {
+        "question_id": "question_001",
+        "question": "Which core brand-coordination responsibilities should this person own day to day?",
+        "target_stage": "basic_info",
+        "purpose": null
+      },
+      "new_requirement_count": 2
+    }
+  ],
+  "rejected_turns": [],
+  "company_behaviours_never_populated_by_discovery": true,
+  "final_role_specification": {
+    "role_id": "role_live_culture_focused_manager",
+    "version": 4,
+    "parent_version": 3,
+    "review_status": "draft",
+    "basic_info": {
+      "title": "Brand Coordinator",
+      "role_family": "marketing",
+      "role_level": "entry",
+      "employment_type": "permanent",
+      "division": null,
+      "team": null,
+      "location": null,
+      "work_arrangement": null,
+      "reporting_to": null,
+      "start_date": null,
+      "end_date": null,
+      "initial_manager_statement": "Skills can be taught. I need someone who gets our vibe."
+    },
+    "business_need": {
+      "problem": null,
+      "why_now": null,
+      "cost_of_vacancy": null,
+      "is_replacement": null
+    },
+    "success_outcomes": [],
+    "responsibilities": [],
+    "requirements": [
+      {
+        "requirement_id": "requirement_001",
+        "category": "behavioural",
+        "name": "Direct communication about priority conflicts",
+        "description": "Communicate directly with the team when campaign deadlines move up and priorities conflict.",
+        "priority": "must_have",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager states that the person needs to communicate directly to the team in this situation.",
+        "evidence_methods": [],
+        "source_statement": "they need to say so directly to the team instead of quietly resenting it",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      },
+      {
+        "requirement_id": "requirement_002",
+        "category": "behavioural",
+        "name": "Support for behind-schedule teammates",
+        "description": "Offer help to a teammate who is behind, including when the work is outside the person's assigned job responsibilities.",
+        "priority": "preferred",
+        "proficiency": null,
+        "learnability": null,
+        "accepted_equivalents": [],
+        "business_rationale": "The manager says the person should offer help in this circumstance.",
+        "evidence_methods": [],
+        "source_statement": "they should offer to help a teammate who's behind even when it's not their job",
+        "source_turn_id": "initial_manager_statement",
+        "confidence": null,
+        "requires_confirmation": true,
+        "approved_by_human": false
+      }
+    ],
+    "open_assumptions": [],
+    "open_ambiguities": [
+      {
+        "ambiguity_id": "ambiguity_001",
+        "description": "“Gets our vibe” is subjective culture-fit language. Please specify observable, job-relevant behaviours or collaboration expectations that would demonstrate this fit.",
+        "source_statement": "I need someone who gets our vibe",
+        "why_confirmation_is_needed": "The phrase does not define an assessable work requirement and should not be used as a personality or culture-fit criterion without job-relevant detail.",
+        "status": "resolved",
+        "resolution": "Okay, concretely: when a campaign deadline moves up and priorities clash, they need to say so directly to the team instead of quietly resenting it, and they should offer to help a teammate who's behind even when it's not their job.",
+        "resolved_at_turn": 4
+      },
+      {
+        "ambiguity_id": "ambiguity_002",
+        "description": "The statements describe subjective social and interview rapport preferences rather than observable, job-relevant collaboration behaviour. Please specify the work-related behaviours or collaboration expectations required for the role.",
+        "source_statement": "If I click with them in the interview",
+        "why_confirmation_is_needed": "Interview rapport and shared humour are subjective and do not define a consistent, job-relevant requirement.",
+        "status": "resolved",
+        "resolution": "Okay, concretely: when a campaign deadline moves up and priorities clash, they need to say so directly to the team instead of quietly resenting it, and they should offer to help a teammate who's behind even when it's not their job.",
+        "resolved_at_turn": 4
+      }
+    ],
+    "company_behaviours": [],
+    "constraints": {
+      "country": null,
+      "location": null,
+      "work_arrangement": null,
+      "work_rights": null,
+      "weekly_hours": null,
+      "travel": null,
+      "languages": [],
+      "jurisdiction_notes": []
+    },
+    "assessment_methods": [],
+    "decision_owner": null,
+    "quality": {
+      "readiness_score": null,
+      "contradictions": [],
+      "warnings": [],
+      "warning_acknowledgements": []
+    },
+    "audit": {
+      "schema_version": "1.0",
+      "created_at": "2026-07-25T01:22:13.365194Z",
+      "updated_at": "2026-07-25T01:22:35.805530Z",
+      "model": null,
+      "prompt_version": null,
+      "source_ids": []
+    },
+    "human_approved": false,
+    "approved_by": null,
+    "approved_at": null,
+    "approved_sections": []
+  },
+  "final_quality_report": {
+    "readiness_score": 20,
+    "readiness_interpretation": "not ready",
+    "vague_phrases": [],
+    "excessive_requirement_issues": [],
+    "blockers": [
+      "Business need is missing.",
+      "At least one success outcome is required.",
+      "At least one responsibility is required.",
+      "At least one assessment method is required.",
+      "A human decision owner is required."
+    ]
+  },
+  "live_run": {
+    "provider": "OpenRouter",
+    "model": "openai/gpt-5.6-terra",
+    "started_at_utc": "2026-07-25T01:22:13.365194Z",
+    "completed_at_utc": "2026-07-25T01:22:41.035090Z",
+    "successful_turn_count": 3,
+    "rejected_turn_count": 0,
+    "provider_elapsed_wall_clock_seconds": 7.179,
+    "run_elapsed_wall_clock_seconds": 27.67
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "session_id": "demo_fallback",
+  "events": [
+    {
+      "event_id": "event_0001",
+      "event_type": "session_created",
+      "timestamp": "2026-07-25T01:27:12Z",
+      "actor": "system",
+      "role_id": "role_fallback_marketing_intern",
+      "role_version": 13,
+      "parent_version": 12,
+      "approval": true,
+      "model": null,
+      "prompt_version": null,
+      "metadata": {}
+    },
+    {
+      "event_id": "event_0002",
+      "event_type": "requirement_approved",
+      "timestamp": "2026-07-25T01:27:12Z",
+      "actor": "Fixture Hiring Manager",
+      "role_id": "role_fallback_marketing_intern",
+      "role_version": 13,
+      "parent_version": 12,
+      "approval": true,
+      "model": null,
+      "prompt_version": null,
+      "metadata": {
+        "requirement_ids": [
+          "requirement_001",
+          "requirement_002"
+        ]
+      }
+    },
+    {
+      "event_id": "event_0003",
+      "event_type": "human_review_recorded",
+      "timestamp": "2026-07-25T01:27:12Z",
+      "actor": "Fixture Hiring Manager",
+      "role_id": "role_fallback_marketing_intern",
+      "role_version": 13,
+      "parent_version": 12,
+      "approval": true,
+      "model": null,
+      "prompt_version": null,
+      "metadata": {
+        "approved_sections": [
+          "business_purpose",
+          "outcomes",
+          "must_haves",
+          "behavioural_criteria",
+          "key_constraints"
+        ]
+      }
+    },
+    {
+      "event_id": "event_0004",
+      "event_type": "hiring_pack_generated",
+      "timestamp": "2026-07-25T01:28:12Z",
+      "actor": "Fixture Hiring Manager",
+      "role_id": "role_fallback_marketing_intern",
+      "role_version": 13,
+      "parent_version": 12,
+      "approval": true,
+      "model": "offline-reviewed-template",
+      "prompt_version": "hiring_pack_generator_v1",
+      "metadata": {
+        "hiring_pack_id": "hiring_pack_076bdf2b9b2946b58a115828c6b6530a",
+        "hiring_pack_version": 1,
+        "source_role_version": 13,
+        "provider": "Offline Fixture",
+        "reference_files": [
+          "Community Manager - Example JD.md",
+          "Company Values.md",
+          "Marketing Coordinator - Example JD.md"
+        ],
+        "question_count": 5
+      }
+    },
+    {
+      "event_id": "event_0005",
+      "event_type": "assessment_generated",
+      "timestamp": "2026-07-25T01:29:12Z",
+      "actor": "Fixture Hiring Manager",
+      "role_id": "role_fallback_marketing_intern",
+      "role_version": 13,
+      "parent_version": 12,
+      "approval": true,
+      "model": "offline-reviewed-fixture",
+      "prompt_version": "candidate_evaluator_v2",
+      "metadata": {
+        "candidate_id": "candidate_fallback_001",
+        "evaluation_id": "evaluation_4a809b33619247ab93d047198a5cf0b3",
+        "evaluation_version": 1,
+        "source_role_id": "role_fallback_marketing_intern",
+        "source_role_version": 13,
+        "source_hiring_pack_id": "hiring_pack_076bdf2b9b2946b58a115828c6b6530a",
+        "source_hiring_pack_version": 1,
+        "response_count": 5,
+        "evidence_count": 2,
+        "assessment_count": 2,
+        "provider": "Offline Fixture",
+        "prompt_injection_detected": false,
+        "prompt_injection_indicators": [],
+        "validation_outcome": "passed"
+      }
+    }
+  ]
+}

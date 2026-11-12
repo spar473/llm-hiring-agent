@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "session_id": "demo_fallback",
+  "role_id": "role_fallback_marketing_intern",
+  "role_version": 13,
+  "current_stage": "complete",
+  "confirmed_stages": [],
+  "current_question": null,
+  "messages": [
+    {
+      "role": "manager",
+      "content": "We need a Marketing Intern from 30 November 2026 to 26 February 2027 because the summer campaign calendar has increased. They must script and film short TikTok videos with the team, targeting three approved posts per week. They will support one full campaign cycle and write a results retrospective. Basic visual content editing experience is preferred and may come from study, volunteering, or personal projects.",
+      "timestamp": "2026-07-25T01:27:12Z"
+    }
+  ]
+}

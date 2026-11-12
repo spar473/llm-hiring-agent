@@ -1,0 +1,142 @@
+{
+  "role_id": "role_live_marketing_intern",
+  "version": 17,
+  "parent_version": 16,
+  "review_status": "approved",
+  "basic_info": {
+    "title": "Marketing Intern",
+    "role_family": "marketing",
+    "role_level": "intern",
+    "employment_type": "internship",
+    "division": "Consumer Products",
+    "team": "Brand Marketing",
+    "location": "Auckland",
+    "work_arrangement": null,
+    "reporting_to": null,
+    "start_date": null,
+    "end_date": null,
+    "initial_manager_statement": "We need a Marketing Intern for summer. They should be creative and good with social media. Maybe some design skills? They'll work with the team on TikTok stuff and help with campaigns. Should be fun to work with."
+  },
+  "business_need": {
+    "problem": "The team needs summer campaign delivery capacity.",
+    "why_now": "The summer campaign calendar has increased.",
+    "cost_of_vacancy": null,
+    "is_replacement": false
+  },
+  "success_outcomes": [
+    {
+      "outcome_id": "outcome_001",
+      "description": "Deliver three approved TikTok posts each week.",
+      "time_horizon": "First 30 days",
+      "measure": "Three approved posts per week",
+      "priority": "must_have",
+      "source_statement": null,
+      "confidence": null
+    },
+    {
+      "outcome_id": "outcome_002",
+      "description": "Support one full campaign cycle end to end.",
+      "time_horizon": "First 90 days",
+      "measure": "One completed campaign cycle",
+      "priority": "preferred",
+      "source_statement": null,
+      "confidence": null
+    }
+  ],
+  "responsibilities": [
+    {
+      "responsibility_id": "responsibility_001",
+      "description": "Draft and schedule weekly campaign content with the team.",
+      "frequency": "Weekly",
+      "ownership_level": "Shared",
+      "priority": "must_have",
+      "source_statement": null,
+      "confidence": null
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "requirement_001",
+      "category": "domain",
+      "name": "Weekly TikTok content scripting",
+      "description": "Script and film short TikTok videos with the team.",
+      "priority": "must_have",
+      "proficiency": null,
+      "learnability": null,
+      "accepted_equivalents": [],
+      "business_rationale": "The manager explicitly assigned this task.",
+      "evidence_methods": [],
+      "source_statement": "They'll script and film short TikTok videos with the team.",
+      "source_turn_id": null,
+      "confidence": null,
+      "requires_confirmation": true,
+      "approved_by_human": false
+    }
+  ],
+  "open_assumptions": [],
+  "open_ambiguities": [],
+  "company_behaviours": [
+    {
+      "value": "Collaboration",
+      "role_behaviour": "Shares draft work early and incorporates feedback.",
+      "scenario": "A campaign draft receives feedback.",
+      "evidence_method": "Behavioural screening response",
+      "source_statement": null,
+      "approved_by_human": true
+    }
+  ],
+  "constraints": {
+    "country": "New Zealand",
+    "location": "Auckland",
+    "work_arrangement": "On-site",
+    "work_rights": "Must hold valid New Zealand work rights.",
+    "weekly_hours": "40 hours",
+    "travel": null,
+    "languages": [],
+    "jurisdiction_notes": []
+  },
+  "assessment_methods": [
+    "Structured screening questions"
+  ],
+  "decision_owner": "Talent Acquisition Partner",
+  "quality": {
+    "readiness_score": 40,
+    "contradictions": [],
+    "warnings": [
+      "Vague phrase 'creative' in initial manager statement.",
+      "Vague phrase 'fun to work with' in initial manager statement."
+    ],
+    "warning_acknowledgements": [
+      {
+        "warning_id": "vague_75cf7f818959",
+        "warning": "Vague phrase 'creative' in initial manager statement.",
+        "acknowledged_by": "Live Flow Hiring Manager",
+        "acknowledged_at": "2026-07-25T01:31:49.802678Z"
+      },
+      {
+        "warning_id": "vague_e5be583e76b7",
+        "warning": "Vague phrase 'fun to work with' in initial manager statement.",
+        "acknowledged_by": "Live Flow Hiring Manager",
+        "acknowledged_at": "2026-07-25T01:31:49.802678Z"
+      }
+    ]
+  },
+  "audit": {
+    "schema_version": "1.0",
+    "created_at": "2026-07-25T01:22:55.754964Z",
+    "updated_at": "2026-07-25T01:31:49.802678Z",
+    "model": null,
+    "prompt_version": null,
+    "source_ids": []
+  },
+  "human_approved": true,
+  "approved_by": "Live Flow Hiring Manager",
+  "approved_at": "2026-07-25T01:31:49.802678Z",
+  "approved_sections": [
+    "business_purpose",
+    "outcomes",
+    "must_haves",
+    "behavioural_criteria",
+    "key_constraints"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "fixture_label": "proof-of-concept, not integrated into main flow",
+  "integration_status": "not_integrated",
+  "proof_scope": "One Spanish JD section generated from the approved Marketing Intern role; not a multilingual workflow or localization review.",
+  "source_role_id": "role_live_marketing_intern",
+  "source_role_version": 17,
+  "generated_at": "2026-07-25T02:59:09.975170Z",
+  "model": "openai/gpt-5.6-terra",
+  "provider": "OpenAI",
+  "prompt_version": "multilingual_jd_poc_es_v1",
+  "input_tokens": 887,
+  "output_tokens": 264,
+  "total_tokens": 1151,
+  "jd_section": {
+    "language": "Spanish",
+    "heading": "Practicante de Marketing",
+    "role_purpose": "Apoyar la capacidad de ejecución de campañas de verano en Consumer Products, dentro del equipo de Brand Marketing.",
+    "responsibilities": [
+      "Redactar y programar semanalmente contenido de campaña junto con el equipo.",
+      "Crear guiones y filmar videos cortos de TikTok con el equipo.",
+      "Compartir borradores con antelación e incorporar comentarios."
+    ],
+    "success_outcomes": [
+      "Durante los primeros 30 días, entregar tres publicaciones de TikTok aprobadas por semana.",
+      "Durante los primeros 90 días, apoyar un ciclo completo de campaña de principio a fin."
+    ],
+    "location_and_constraints": [
+      "Ubicación: Auckland, Nueva Zelanda.",
+      "Modalidad presencial.",
+      "40 horas semanales.",
+      "Debe contar con derechos de trabajo válidos en Nueva Zelanda."
+    ]
+  }
+}
